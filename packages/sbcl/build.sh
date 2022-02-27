@@ -5,7 +5,7 @@ TERMUX_PKG_MAINTAINER="@metayan"
 TERMUX_PKG_VERSION=2.2.2
 TERMUX_PKG_SRCURL=https://downloads.sourceforge.net/sbcl/sbcl-${TERMUX_PKG_VERSION}-source.tar.bz2
 TERMUX_PKG_SHA256=8790dbbe97711dce14bb823125ce5b185b0073cf2f3cbf37bdd1ad380e7950f6
-TERMUX_PKG_DEPENDS="ecl"
+TERMUX_PKG_BUILD_DEPENDS="ecl"
 
 termux_step_make() {
 	cd $TERMUX_PKG_SRCDIR
