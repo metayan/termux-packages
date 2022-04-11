@@ -2,9 +2,9 @@ TERMUX_PKG_HOMEPAGE=http://www.sbcl.org/
 TERMUX_PKG_DESCRIPTION="SBCL (Steel Bank Common Lisp) is a high performance Common Lisp compiler."
 TERMUX_PKG_LICENSE="MIT"
 TERMUX_PKG_MAINTAINER="@metayan"
-TERMUX_PKG_VERSION=2.2.2
+TERMUX_PKG_VERSION=2.2.3
 TERMUX_PKG_SRCURL=https://downloads.sourceforge.net/sbcl/sbcl-${TERMUX_PKG_VERSION}-source.tar.bz2
-TERMUX_PKG_SHA256=8790dbbe97711dce14bb823125ce5b185b0073cf2f3cbf37bdd1ad380e7950f6
+TERMUX_PKG_SHA256=de7f49e1f7750fd2cd89111ef70641cc5471355f621b737392ac68aa95f37f9f
 TERMUX_PKG_BUILD_DEPENDS="ecl"
 
 termux_step_make() {
